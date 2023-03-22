@@ -31,6 +31,27 @@ library(knitr)
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
+<!--
+
+2023-03-22 thoughts
+
++ Great start.
++ Since you can't really "test" much of this, here's how I think you should proceed:
+	+ Through your research on the topic, you could begin constructing a systematic comparison of the different products/approaches listed here
+	+ Look at consistent messaging these companies put out. What problem do they all want to solve? What features do they have in common they're promising?
+	+ Where do they differ? 
+	+ Look at any other data points you can glean from the information that's available.
+	+ Align this with the research articles that are out there and try to come up with a matrix that's informed by the empirical research _and_ the promises/realities of these companies/devices.
+	+ You'll want to exhaust the available research until you feel you've reached a "saturation" point, where more literature likely won't move the needle much.
+	+ Then, start scoring them. 
++ You're not going for a review article, necessarily, but a systematic approach to understanding the landscape that's evidence-based and supported by the research available.
++ Then, once you've got that, your "What will the future look like?" section of your paper will be much more robust and guided.
++ To get this matrix sorted out, it's going to take some deep reading and unpacking of the products/companies' websites, news releases, et cetera, so be very meticulous about it.
+  + You'll want to make note of your approach (how you find the information), what was available and what _wasn't_, which companies are more forthcoming and possibly why that might be, where funding for the companies came from (ie, NIH grants, venture capitalists, etc) and so on.
+    + Creating a spreadsheet is probably the best approach.
+
+-->
+
 
 ## Intial thoughts
 
