@@ -1,0 +1,53 @@
+/* basic elements */
+body {
+    background-color: rgb(219, 241, 234);
+	color: #6163f0;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	font-size: 14pt;
+}
+/* 3 headings with at least: foreground color
+background color
+font-family goithic, futura, verdana or any sanserif
+all underlined
+h1: center align 28 pt bold
+h3/h2: left align 20 normal
+body: white background
+text fore ground color
+14pt font
+font family: georgia, garmond
+*/
+h1 {
+	background-color: #355522;
+    color:rgb(198, 172, 223);
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-weight: bold;
+	text-decoration: underline;
+	text-align: center;
+	font-size: 28pt;
+}
+h2 {
+	background-color: #342255;
+    color:rgb(209, 223, 172);
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	text-decoration: underline;
+	text-align: left;
+	font-size: 20pt;
+}
+h3 {
+	background-color: #552252;
+    color:rgb(149, 182, 212);
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	text-decoration: underline;
+	text-align: left;
+	font-size: 20pt;
+}
+a:link { 
+	font-weight: bold; 
+	text-decoration: none; 
+	color: #B7A5DF;
+	}
+
+a:hover, a:focus, a:active { 
+	text-decoration: underline; 
+	color: #9685BA;
+	}
