@@ -8,9 +8,12 @@ output:
   bookdown::html_document2:
     toc: yes
     toc_depth: 2
+    number_sections: false
   bookdown::pdf_document2:
     toc: yes
     toc_depth: 2
+    
+bibliography: bibliography.bib
 ---
 
 ```{r setup, include=FALSE}
@@ -25,40 +28,43 @@ library(knitr)
 # If you try to knit to PDF and run into a strange error,
 # then run tinytex::install_tinytex()
 
-knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(echo = FALSE)
 ```
 
 
 ## Intial thoughts
+
 I find thinking about living in a world that has the ability to have universal language or the ability to speak with any being that has a brain to be really inspirational. Currently we can read what our thoughts are thinking and the different interaction with BCI can frame the future in what we should be expecting. I am expecting to not re-write thoughts but, to communicate back to the brain using the same features and methods to read outputs from the brain. We can better understand interpretation of the brain's rendering emotions, visual, or medication. Could we preform surgery on the body without the brain knowing? Could the blind see? Can Alzheimer's be a thing of the past?
 
 This is what I am hoping to find out about. Where is our current state of BCI, where is BCI going, and why haven't my dreams been rendered? 3D- printed food, talking to someone on video chat from across the world, animal products are for more than just food, a pig's valve in a humans heart, or a real functioning light saber. These were dreams that have been processed and created in the modern world with our technology. Yet, we seem to be lacking in other spaces or science has slowed down of an unknown cause.
 
-##Past, Present, Future Article
+## Past, Present, Future Article
+
 "The electroencephalography (EEG)-based brain–computer interface (BCI) is one of the most rapidly developing fields of BCI and has potential to expand far beyond the domain of medical applications, in which they were initially most popular." [@varbu2022past] Personally using the Enchanted Wave to see how EEG see's my brain patterning is the first move. 
 
-##Current Companies and their Development
+## Current Companies and their Development
 
 There are currently 4 companies that I think should be highlighted with pushing the brain computer interaction into the next phase. If there was some way of altering or combining what they have created to understanding true interaction with the brain.
  
- 
-###Neuralink
+
+### Neuralink
 
 Founded by Elon Musk with the goal of creating symbiotic relationship between brain and computer. Currently their product is not available to the public. They have created threads that are woven into the brain to allow communication to different devices. They are hoping to develop their tech to not include an invasive surgery yet, currently they can control Bluetooth and 'mouse' like features on the computer.
 
 
-###Neurable
+### Neurable
 
 They were most know for creating a the world's first brain controlled VR game where the user would drive a car with an EEG headset. Currently, they have created headphones which monitor using brainwaves to ensure focus. The features for the head phones are vast as they are the first iteration of 'smart-headphones' with touchless controls. They are working with the military on training ideas. But, there is not much ideas for the public on the VR domain side.
 
 
-###BrainPort
+### BrainPort
 
 This company is less known here int he states since 2009 as their devices are more used in Europe. They have wearable devices for the blind to interpret sight via their tongue. There is an electric 'lollipop' that send the signal to the brain to comprehend as a view-able object through training sessions. I feel like the understanding that this company is doing is important to better understand what our interaction and communication with the brain could be like.
 
 
-###Kernel
+### Kernel
 
 The goal is to store memories outside of the brain and upload new memories. They use their device called the Kernel Flow a near-infrared spectroscopy (TD-fNIRS) which is a imagining for high resolution observations. They have partnered with AppliedVR to measure treatment of chronic pain.
 
 
+## References
