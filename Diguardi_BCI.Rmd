@@ -63,6 +63,54 @@ This is what I am hoping to find out about. Where is our current state of BCI, w
 
 "The electroencephalography (EEG)-based brain–computer interface (BCI) is one of the most rapidly developing fields of BCI and has potential to expand far beyond the domain of medical applications, in which they were initially most popular." [@varbu2022past] Personally using the Enchanted Wave to see how EEG see's my brain patterning is the first move. 
 
+
+### Overview of Challenges and opportunities for future of brain-coputer interface in neurorehabilitation
+
+BRIEF THOUGHTS::
+The main idea of this article is to explore the advancements in overcoming paralysis or debilitating motor function. They are looking at BCI, the current advancement in enhancing the CNS (central nervous system) communication to allow patients after a nervous system issue, forerunner is s constraint-induced movement therapy (CIMT). The article goes into different functions that BCI can aid during therapy. Yet, since there is a existing treatment in CIMT the current mindset is 'if it ain't broke don't fix it.' I feel like the advancements in medical history would be more important for patient care. There is also the uphill battle of having to train the brain in interacting with the limbs. Which can be frustrating and some people end after the first day.But there is hope on creating a more tailored experience with Machine Learning techniques and choose to reduce the difficultly of user interaction.
+
+GOOD QUOTES::
+
+it would facilitate rehabilitation to commence earlier following brain damage and provides options for patients who are unable to partake in traditional physical therapy.
+
+We propose that addressing the speed and effectiveness of learning BCI control are priorities for the field, which may be improved by multimodal or multi-stage approaches harnessing more sensitive neuroimaging technologies in the early learning stages, before transitioning to more practical, mobile implementations.
+
+Non-invasive brain-computer (and brain-machine) interfaces provide an advanced technological solution, decoding brain
+signals directly from the scalp and translating them into movement of a virtual (on screen) or robotic effector.
+
+Non-invasive BCI typically consists of three key components: A recorder, a decoder, and an effector. The recorder acquires brain signals from the scalp surface.
+
+Four different types: In most cases the recorder is an electroencephalogram (EEG) detecting scalp electrical fluctuations associated with neuronal activity. In practise, any neural signal could be incorporated into a BCI, and implementations using magnetoencephalography (MEG) (Buch et al., 2008; Foldes et al., 2015), functional magnetic
+resonance imaging (fMRI) (Thibault et al., 2018) and functional near-infrared spectroscopy (fNIRS) (Soekadar et al., 2021) have also shown merit.
+
+Current implementations of EEG-BCI are not well adapted for this purpose as they are cumbersome, require lengthy
+setup times with wet electrolyte-filled sensors, and a skilled operator to ensure sufficient signal quality, positioning of the headgear and execution of (often custom written and not user friendly) software.
+
+Addressing BCI inefficiency and speed of learning are priorities for the field, which may be improved by multimodal or multi-stage BCI approaches harnessing more sensitive neuroimaging technologies in the early learning stages, before transitioning to more practical, mobile implementations.
+
+### Study of the Auxiliary Robot Used to Disassemb and Assemb Mid-Set Switch Cubicle Based on BCI
+> change the bibtex :: Study of the Auxiliary Robot Used
+to Disassemb and Assemb Mid-Set Switch
+Cubicle Based on BCI
+Weiwei Huang(&)
+, Bihui Zhang, and Rui Li
+Zhaotong Power Supply Bureau of Yunnan Power Grid Co., Ltd.,
+Zhaotong 657000, Yunnan, China >
+
+Brief Thoughts ::
+
+Switchgear is a power equipment, to maintain the power supply there is a transformer that takes assembly and disassembly. To reduce injury the article suggests using an EEG device. IT goes through the experiment where 12 sujects try the device using their eyes to remove the transformer and replace the transformer. They used brain mapping to ensure the device was calibrated properly.
+
+GOOD QUOTES ::
+
+It can be concluded that the working efficiency of the brain-computer aided mode is improved by nearly 60%
+compared with the traditional mode
+
+
+##Current Companies and their Development
+
+There are currently 4 companies that I think should be highlighted with pushing the brain computer interaction into the next phase. If there was some way of altering or combining what they have created to understanding true interaction with the brain.
+
 ## Current Companies and their Development
 
 There are currently 4 companies that I think should be highlighted with pushing the brain computer interaction into the next phase. If there was some way of altering or combining what they have created to understanding true interaction with the brain.
