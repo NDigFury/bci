@@ -59,6 +59,17 @@ I find thinking about living in a world that has the ability to have universal l
 
 This is what I am hoping to find out about. Where is our current state of BCI, where is BCI going, and why haven't my dreams been rendered? 3D- printed food, talking to someone on video chat from across the world, animal products are for more than just food, a pig's valve in a humans heart, or a real functioning light saber. These were dreams that have been processed and created in the modern world with our technology. Yet, we seem to be lacking in other spaces or science has slowed down of an unknown cause.
 
+This paper or presentation is to address the approaches to Brain-Computer-Interaction (BCI). Why we have these poteintally archaic functions, how can the feild progress, and what the current compaines are doing about the technological shift. Since I have access to an EEG we are going to try and find the limitations to the technology and how can we advance to the next BCI phase. It seems like every scientist and programmer that 'falls down this rabbit hole' draws the same conculsion: BCI can aid so many people the goals of some of the companies featured below were: To give blind the ability to see, store memories outside the brain, give those that require robotic limbs the freedom to move on their own, and to lessen the effects of mental illness.
+
+<!-- Thought could the lab create a mimic study like: we have the EEG, now food for thought 
+Evaluating a Semiautonomous Brain-Computer Interface
+Based on Conformal Geometric Algebra and Artificial Vision
+Mauricio Adolfo Ramı´rez-Moreno and David Gutie´rrez
+Centro de Investigacio´n y de Estudios Avanzados (Cinvestav), Unidad Monterrey, Apodaca, Nuevo Leon 66600, Mexico
+Correspondence should be addressed to David Gutie´rrez; dgtz@ieee.org
+Received 10 June 2019; Accepted 30 October 2019; Published 27 November 2019
+Guest Editor: Hyun S. Kim -->
+
 ## Past, Present, Future Article
 
 "The electroencephalography (EEG)-based brain–computer interface (BCI) is one of the most rapidly developing fields of BCI and has potential to expand far beyond the domain of medical applications, in which they were initially most popular." [@varbu2022past] Personally using the Enchanted Wave to see how EEG see's my brain patterning is the first move. 
@@ -99,17 +110,47 @@ Zhaotong 657000, Yunnan, China >
 
 Brief Thoughts ::
 
-Switchgear is a power equipment, to maintain the power supply there is a transformer that takes assembly and disassembly. To reduce injury the article suggests using an EEG device. IT goes through the experiment where 12 sujects try the device using their eyes to remove the transformer and replace the transformer. They used brain mapping to ensure the device was calibrated properly.
+Switchgear is a power equipment, to maintain the power supply there is a transformer that takes assembly and disassembly. To reduce injury the article suggests using an EEG device. IT goes through the experiment where 12 sujects try the device using their eyes to remove the transformer and replace the transformer. They used brain mapping to ensure the device was calibrated properly. Not right for the article.
 
 GOOD QUOTES ::
 
 It can be concluded that the working efficiency of the brain-computer aided mode is improved by nearly 60%
 compared with the traditional mode
 
+Inside ergonomics article ::
+add to bibtex
+
+Advances in Hybrid Brain-Computer Interfaces: Principles,
+Design, and Applications
+Zina Li, Shuqing Zhang, and Jiahui Pan
+South China Normal University, Guangzhou 510631, China
+Correspondence should be addressed to Jiahui Pan; panjh82@qq.com
+Received 20 June 2019; Revised 9 September 2019; Accepted 17 September 2019; Published 8 October 2019
+Guest Editor: Hyun J. Baek
+
+### Brief overview
+
+A tight view of EEG, why is it used, why is it so popular and how can we make it better? Currently EEG has the most adaptive paridigms for creating algorithms for hBCI collection and intreptation. By just reading the surface of the brain interaction there may have effects like mental fatigue, information transfers at a lower rate (see my 'sleeping' EEG), issues with multi-controls, and false readings. They tested the hBCI which developes the EEG but also queues audio and visual (thought like the VR controller from Neuable as it took eye movement as a factor). They did a study on 80 trials with healthy participants it took about an hour and a half for the participants to get used to the controls.
+
+### GOOD QUOTES
+
+Conventional brain-computer interface (BCI) systems have been facing two fundamental challenges: the lack of high detection performance and the control command problem
+
+The most commonlyused methods of extracting brain signals are nonimplanting, including functional magnetic resonance imaging (fMRI), magnetoencephalography (MEG), electroencephalography (EEG), and functional near-infrared spectroscopy (fNIRS) [2]. Although EEG has low signal-to-noise ratio and spatial resolution, it has been widely used in BCI because of its noninvasiveness, portability, low cost, good performance, real-time response, and technical requirements lower than other brain signals
+
+Pfurtscheller et al. [10] believed that in addition to the simple combination of different BCIs, the type of hBCI should meet the following four criteria: (1) the activity comes directly from the brain; (2) at least one brain signal acquisition method should be used to capture this activity, and the brain signal acquisition method can be in the form of electrical, magnetic, or hemodynamic changes; (3) the signal must be processed in real time/online to establish communication between the brain and the computer to generate control commands; (4) feedback must be provided according to the results of brain activity for communication and control.
+
+The BCI system used the characteristics of P300 and SSVEP to detect which photo the patient had noticed. Eight patients (four in the vegetative state (VS), three in the minimally conscious state (MCS), and one in the locked-in syndrome (LIS)) participated in the experiment. Using the SVM-based classifier, one VS patient, one MCS patient, and one LIS patient were able to select photos of themselves or others (classification accuracy, 66%–100%), which indicates that the patient command can be
+followed using an hybrid BCI and further proves that they have certain cognitive abilities and awareness.
+
+Humans have multiple senses that provide pathways for processing information on the reality. The integration of multiple sensory stimuli enhances top-down attention,
+and these enhanced effects may be conducive to improve the performance of BCI systems. (They make a good point and this is important)
 
 ##Current Companies and their Development
 
 There are currently 4 companies that I think should be highlighted with pushing the brain computer interaction into the next phase. If there was some way of altering or combining what they have created to understanding true interaction with the brain.
+
+<!-- Create a table here of the compaines and thier goals vs what they have created ,, a overview of their approaches and their tech. -->
 
 ## Current Companies and their Development
 
