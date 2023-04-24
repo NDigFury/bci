@@ -1,0 +1,102 @@
+---
+title: "BCI"
+subtitle: "APCV 399: Reserach Assistant"
+author: "Nikki Diguardi"
+date: "`r format(Sys.time(), '%A, %B %d, %Y')`"
+always_allow_html: yes
+output:
+  bookdown::html_document2:
+    toc: yes
+    toc_depth: 2
+    number_sections: false
+  bookdown::pdf_document2:
+    toc: yes
+    toc_depth: 2
+    
+bibliography: bibliography.bib
+---
+
+```{r setup, include=FALSE}
+library(rmarkdown)
+library(knitr)
+library(ggplot2)
+#library(tinytex)
+#library(anicon)
+
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Abstract
+
+Can we see while being blind? Can we store our most precious memories outside our head? Can we play Virtual Reality without a controller? A few companies have created these very goals in the advancement of Brain-Computer Interaction (BCI). Has technology met or increased these goals to allow the advancement to happen? A review of the current technology shows BCI is being driven by  electroencephalography (EEG). An EEG reads the top level of brain activity and has no electronic response back to the brain. This report is to address the approaches to Brain-Computer Interaction (BCI). Why we have these potentially archaic functions, how can the field progress, and what the current companies are doing about the technological shift. 
+
+## Introduction
+
+“BCI has demonstrated remarkable achievements in entertainment and gaming, education, marketing, automation and control, among other science and engineering fields.”[@maiselibrain] This paper will explore the current uses for BCI, the future potential BCI, and those forefront companies that are shaping the future. "The most commonly used methods of extracting brain signals are non-implanting, including functional magnetic resonance imaging (fMRI), magnetoencephalography (MEG), electroencephalography (EEG), and functional near-infrared spectroscopy (fNIRS)."[@pan2019hybrid] These non-invasive methods of reading brain activity has a reduced function on sending a response to the brain. Advancement in BCI should include obtaining a message from the brain and responding accordingly.
+
+## BCI currently in studies
+
+“The proportion of articles has increased over the recent years could be the overall development of the technology making it easier and more efficient to conduct the research on EEG-based BCI applications and inclusion of the topic more in the articles.” [@varbu2022past] The landscape and support of the research exhibited that EEG is still the standard of research development. The studies being explored are in depth analysis of EEG which is researcher friendly application of BCI. EEG's are readily available found online and gather easy to read data. "The EEG-based BCI is one of the most rapidly developing fields of BCI and has potential to expand far beyond the domain of medical applications, in which they were initially most popular." [@varbu2022past] 
+
+```![Yearly research by [@varbu2022past] ](images/figure4.png)```
+
+In the current field of neuro-rehabilitation, BCI is used to engage patients to overcome paralysis or debilitating motor function. A BCI program, the patient can enhance their central nervous system (CNS) communication after a CNS issue, instead of using the current technology which is constraint-induced movement therapy (CIMT). CIMT promotes muscles to develop stronger than fixing the neuro-pathways. "We propose that addressing the speed and effectiveness of learning BCI control are priorities for the field, which may be improved by multimodal or multi-stage approaches harnessing more sensitive neuroimaging technologies in the early learning stages, before transitioning to more practical, mobile implementations."[@simon2021challenges]
+
+Currently EEG has the most adaptive paradigms for creating algorithms for hybrid-BCI (hBCI) collection and interpretation. By just reading the surface of the brain interaction there may have effects like mental fatigue, information transfers at a lower rate, issues with multi-controls, and false readings. They tested the hBCI which develops the EEG but also queues audio and visual. "Eight patients (four in the vegetative state (VS), three in the minimally conscious state (MCS), and one in the locked-in syndrome (LIS)) participated in the experiment. Using the SVM-based classifier, one VS patient, one MCS patient, and one LIS patient were able to select photos of themselves or others (classification accuracy, 66%–100%), which indicates that the patient command can be followed using an hybrid BCI and further proves that they have certain cognitive abilities and awareness."[@pan2019hybrid]  
+
+The medical field is about waiting until the patient is ready for physical activity, yet BCI integration would allow the healing to occur faster than the body could move. The current EEG decodes the brain activity into motor function yet, the patient has to relearn how to move their limbs with aid from the programmed EEG. "Current implementations of EEG-BCI are not well adapted for this purpose as they are cumbersome, require lengthy setup times with wet electrolyte-filled sensors, and a skilled operator to ensure sufficient signal quality, positioning of the headgear and execution of (often custom written and not user friendly) software." [@simon2021challenges] This causes the patient to get frustrated and an easy way of giving up as there is a back up in waiting for physical activity. The research suggests trying to get the patient to start with BCI and thinking about how they can move before trying physical therapy, as this would strengthen mind and body.
+
+Exploratory research has designed to determine the multiple uses for BCI. “Researchers have, for instance, reported remarkable achievements demonstrating that BCI can efficiently restore capabilities of people with disabilities, such as those with schizophrenia symptoms (psychosis, emotional disturbances, and cognitive dysfunction)”[@maiselibrain] The transition of just maintaining BCI and EEG has mutated to involving the whole body experience. "Humans have multiple senses that provide pathways for processing information on the reality. The integration of multiple sensory stimuli enhances top-down attention, and these enhanced effects may be conducive to improve the performance of BCI systems."[@pan2019hybrid]
+
+The research that is available has explored the technology and potential that BCI can achieve, yet is there limitations to the security of those interactions and what are the threats that should be explored more? “The present study covers typical threat concerns, including medical safety, privacy, ethics, and security. Because the natural working principles of the brain are not comprehensively understood, researchers have been recommended to focus more on the short- and long-term impacts of BCI on the general welfare of humans.” [@maiselibrain] The ethical dilemmas of being able to communicate to the brain in such a fashion or being able to store memories and ideas externally. Or being able to control devices with the brain without the device owner’s consent. "Therefore, to address the privacy concerns, standards should be established to define acquisition methods, access control protocols, and encryption techniques, among other attributes.” [@maiselibrain]
+
+## Companies
+
+```{r setup, include=FALSE}
+# add the table for the companies
+# unpacking of the products/companies' websites, news releases, et cetera, so be very meticulous about it
+
+df <- data.frame(Company = c('Neuralink', 'Neurable', 'BrainPort', 'Kernel'),
+                 Goal = c('Symbiotic Relationship of brain and computer', 'Push the bounds of BCI', 'Allow blind to see', 'Store memories externally'),
+                 Product = c('The Link', 'Enten', "BrainPort Vision", 'Flow'),
+                 URL = c("https://neuralink.com/", "https://neurable.com/", "https://www.wicab.com/", "https://www.kernel.com/"))
+
+#view data frame
+df
+
+```
+
+There are currently 4 companies that are highlighted with pushing the BCI into the next phase of the technology. If there was some way of altering or combining what they have created to understanding true interaction with the brain."The BCI field is moving fast with a number of promising outcomes that can significantly improve human lives." [@maiselibrain] The goals each company has laid out is great to aspire for yet, some seem to stray away from their mark.
+ 
+
+### Neuralink
+
+```![The Link device by [@neuralink] ](images/link.png)```
+
+Owned by Elon Musk with the goal of creating symbiotic relationship between brain and computer, initially to help those that have paralysis. Currently their product is not available to the public as it is intended to give back independence to those that require a medical device. They have created threads that are woven into the brain, attached to the synapses, to allow communication to different devices. "We believe this technology has the potential to treat a wide range of neurological disorders, to restore sensory and motor function, and eventually to expand how we interact with each other and experience the world around us."[@neuralink] They are designing  a robotic system that can aid in the insertion of the device. "The Link" has an application to allow the user to access a keyboard, mouse, or mobile device via Bluetooth connection. "Through the Patient Registry, we expect to increase our understanding of the medical and assistive technology needs of individuals at a larger scale in order to thoughtfully design future clinical trials and neurotechnology devices that meet these individuals’ needs." [@neuralink] In December they opened for patient registry, for 5 conditions that they determine would be the best candidate for the device.
+
+### Neurable
+
+Starting with a deep dive of brain activity to being able to control different devices via EEG. They were most know for creating a the world's first brain controlled VR game where the user would drive a car with an EEG headset."We envisioned a roadmap for achieving a world with mental control of technology and affective computing (computers that can detect emotion), two new dimensions for how humans interact with machines." [@neurable] Neurable changed their creating power to allow more customers to get their technology, as headphones are more used than VR devices. Enten monitors using brainwaves to ensure focus. The features for the head phones are vast as they are the first iteration of 'smart-headphones' with touch less controls. The headphones increase the focus of the user and give data to increase knowledge of how the user can focus better. " Neurotechology can achieve great things but are largely confined to laboratory settings because they are really hard to use and even more difficult to interpret." [@neurable] Their proprietary algorithm and EEG creates jobs with the military and to make everyday BCI open to the public.
+
+### BrainPort
+
+```![The Link device by [@neuralink] ](images/brainport.png)```
+
+This company is less known here int he states since 2009 as their devices are more used in Europe. They have wearable devices for the blind to interpret sight via their tongue. There is an electric 'lollipop' that send the signal to the brain to comprehend as a view-able object through training sessions. "The tongue array contains 394 electrodes and is connected to the headset via a flexible cable so it can’t be dropped and lost." [@brainport] This will stimulate the tongue to send feedback to the brain on what the camera sees. "A typical training course is 10 hours of one-on-one training, over a three-day period, including customized content for the individual user." [@brainport] This allows the user to sync with the device, because it is not vision but patterns on the tongue.
+
+### Kernel
+
+The goal is to store memories outside of the brain and upload new memories. The Flow was born out of this idea with integration of developing noninvasive precision neuroimaging. This device uses a near-infrared spectroscopy (TD-fNIRS) which is a imagining for high resolution observations. "Kernel is going to demonstrate that the best way to solve problems associated with the brain is to do so with precise measurement." [@kernel]
+They have partnered with AppliedVR to measure treatment of chronic pain and are focusing on better developing aid for those with depression.
+
+## Future of BCI
+
+If I could continue my research on this subject, I would want to utilize the technology that Neurable started with. A VR game simulation with an EEG 'controller' to ensure the user can engage with the game's methods. This would take some of the lab's resources and programming to have the two devices communicate. As far as research, there is not a true evaluation on the products that are advancing BCI forward, there are evaluations on those that are used currently that are outdated.There are a few approaches to increasing the software to be more user friendly. For the current BCI there are programming requirements to have a machine learning approach, this can be explored better. Yet, with the current cyber security environment, the BCI community should take into account the risk factors, security breaches, and potential threats into account. Each research should have a section dedicated to better understanding the risk factors.
+
+This could branch into allowing the mind to enjoy an experience without moving a muscle. I do not believe that we are going to be using the EEG for very much longer as Kernel has created a more portable  neuroimaging system which can map more of the brain than an EEG can. Threading from Neuralink is not open to the public, yet if we can better understand how they are responding to the brain we might be able to extract it to surface level. Therefore, BCI is on the brink of discovering the next form for talking to and from the brain. 
+
+## Conclusion
+
+"The BCI field is moving fast with a number of promising outcomes that can significantly improve human lives. Researchers require regular updates to address challenges hindering further advancement of the BCI technology."  [@maiselibrain] In my opinion Neurable understands EEG, and Neuralink has a deep insight to BCI. Each company has their goals yet, all of them are moving towards noninvasive BCI. The approaches to understanding the brain are all the same yet, they differ at the implementation and branch of field they wish to work with. 
+
