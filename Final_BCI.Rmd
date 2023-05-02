@@ -52,7 +52,7 @@ The research that is available has explored the technology and potential that BC
 
 ## Companies
 
-```{r setup, include=FALSE}
+```{r companies, include=FALSE}
 # add the table for the companies
 # unpacking of the products/companies' websites, news releases, et cetera, so be very meticulous about it
 
@@ -99,7 +99,7 @@ echo from the findings
 
 "The BCI field is moving fast with a number of promising outcomes that can significantly improve human lives. Researchers require regular updates to address challenges hindering further advancement of the BCI technology."  [@maiselibrain] In my opinion Neurable understands EEG, and Neuralink has a deep insight to BCI. Each company has their goals yet, all of them are moving towards noninvasive BCI. The approaches to understanding the brain are all the same yet, they differ at the implementation and branch of field they wish to work with. My personal experience with EEG was hard to use, easy to interpret, and not accurate. Below is the data from a nap I took to which the data was logged as  being alert and thinking.
 
-```{r setup, include=FALSE}
+```{r asleep, include=FALSE}
 
 asleep <- read.csv('eeg_findings/asleep for an hour.csv', header= TRUE, skip = 14, nrows = 50)
 
